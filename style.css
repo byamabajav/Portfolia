@@ -1,0 +1,73 @@
+  /* header hesgiin css */
+  .headerRow{
+    background-color: rgba(10, 25, 47, 1)
+  }
+ .menu{
+    text-decoration: none;
+    font-family: 'SF Mono', 'Fira Coda', 'Fira Mono'; 
+    font-size: 13px; 
+  }
+/* 2 taliin zahiin fixed items css*/
+.bulan{
+    background-color: rgba(10, 25, 47, 1)
+}
+.bulan .list-group-item {
+    background-color: inherit; 
+    color: #fff; 
+  }
+/* body css */
+body{
+    background-color: rgba(10, 25, 47, 1);
+}
+section{
+    height: 100vh;
+}
+/* logo */
+#logo{
+    color: #5ceacb;
+    font-family: 'SF Mono', 'Fira Coda', 'Fira Mono'; 
+    font-size: 30px; 
+}
+.resume{
+    background-color: rgba(10, 25, 47, 1);
+    color: #5ceacb;
+    border: 2px solid #5ceacb;
+    border-radius: 15%;
+}
+#rotate{
+    transform: rotate(90deg);
+  }
+  #none{
+    text-decoration: none;
+    color: #A8B2d1;
+   font-family: 'Calibre', 'Inter', 'San Francisco'; 
+  }
+  #none:hover{
+    color: #5ceacb;
+  }
+/* text css */
+.fonSize{
+    font-family: 'SF Mono', 'Fira Coda', 'Fira Mono'; 
+    font-size: 18px; 
+    color: #5ceacb;
+}
+.fonSize2{
+    font-family: 'Calibre', 'Inter', 'San Francisco'; 
+    font-size: 70px; 
+    color: #ccd6f6;
+
+}
+.fonSize3{
+    font-family: 'Calibre', 'Inter', 'San Francisco'; 
+    font-size: 77px; 
+    color: #8892b0;
+
+}
+.fonSize4{
+    font-family: 'Calibre', 'Inter', 'San Francisco'; 
+    font-size: 20px; 
+    color: #717c98;
+}
+.no-border {
+    border: none;
+  }
