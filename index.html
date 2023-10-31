@@ -23,7 +23,6 @@
               role="img"
               viewBox="0 0 84 96"
             >
-              <title>Logo</title>
               <g transform="translate(-8.000000, -2.000000)">
                 <g transform="translate(11.000000, 5.000000)">
                   <polygon
@@ -69,11 +68,14 @@
       >
         <button class="resume">resume</button>
       </div>
+      <!-- mobile sidebar -->
     </div>
   </head>
   <body>
     <!-- hoer taliin bagana -->
-    <div class="col-1 bulan position-fixed top-50 bottom-0 align-self-center">
+    <div
+      class="col-1 bulan position-fixed top-50 bottom-0 align-self-center hoyrTal"
+    >
       <ul class="list-group ms-2">
         <li class="list-group-item no-border">
           <a href="https://www.facebook.com/byambajav.lhavgasuren">
@@ -117,7 +119,7 @@
         </li>
       </ul>
     </div>
-    <div class="col-1 bulan position-fixed end-0 top-50 bottom-0">
+    <div class="col-1 bulan position-fixed end-0 top-50 bottom-0 hoyrTal">
       <a id="none" href="mailto:youremail@gmail.com">
         <p id="rotate">bijuu0822@gmail.com</p>
       </a>
@@ -125,7 +127,7 @@
     <div class="container">
       <!-- body hesgiin section 1 endees ehlne -->
       <section class="" id="section1">
-        <div class="col-10 mt-5 ms-5">
+        <div class="col-10 mt-5 ms-3">
           <p class="fonSize">Hi, My name is</p>
           <p class="fonSize2">Lhagvasuren Byambajav.</p>
           <p class="fonSize3">I build things for the<br />web.</p>
@@ -138,19 +140,18 @@
         </div>
       </section>
       <!-- hoyrdugaar heseg -->
-      <section
-        class="d-flex justify-content-center align-items-center"
-        id="section2"
-      >
-        <div class="row mx-auto">
-          <div class="col-6">
+      <section id="section2">
+        <div
+          class="row mx-auto d-flex justify-content-center align-items-center"
+        >
+          <div class="col-12 col-md-6">
             <img
               src="/img/374660753_6308789085909781_4189657203703309672_n.jpg"
               class="img-fluid"
               alt=""
             />
           </div>
-          <div class="col-5 text-start">
+          <div class="col-12 col-md-5 text-start">
             <p class="title"><span>0.1 </span><span>About me</span></p>
             <p class="fonSize4">
               Hello! My name is Byambajav and I enjoy creating things that live
@@ -206,25 +207,24 @@
           <img src="/img/radixHome.png" class="img-fluid" alt="" />
         </div>
       </section>
-      <section
-        class="d-flex justify-content-center align-items-center bg-picture"
-        id="section4"
-      >
-        <div class="col-6 ms-3 text-center me-1">
-          <p class="title">
-            <span>0.3 </span><span>Some Things I’ve Built</span>
-          </p>
-          <p class="fonSize4">
-            In my free time, I'm passionate about pursuing creative projects.
-            For example, I developed a personalized app that features quizzes
-            and questions.
-          </p>
-        </div>
-        <div class="col">
-          <img src="/img//app1.jpg" class="small-image" alt="" />
-        </div>
-        <div class="col">
-          <img src="/img//app2.jpg" class="small-image" alt="" />
+      <section id="section4">
+        <div class="row d-flex justify-content-center align-items-center">
+          <div class="col-12 col-md-6 text-center">
+            <p class="title">
+              <span>0.3 </span><span>Some Things I’ve Built</span>
+            </p>
+            <p class="fonSize4">
+              In my free time, I'm passionate about pursuing creative projects.
+              For example, I developed a personalized app that features quizzes
+              and questions.
+            </p>
+          </div>
+          <div class="col-6 col-md-3">
+            <img src="/img//app1.png" class="img-fluid" alt="" />
+          </div>
+          <div class="col-6 col-md-3">
+            <img src="/img//app2.png" class="img-fluid" alt="" />
+          </div>
         </div>
       </section>
       <section

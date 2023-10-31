@@ -75,12 +75,12 @@ height: 60px;
 /* text css */
 .fonSize{
     font-family: 'SF Mono', 'Fira Coda', 'Fira Mono'; 
-    font-size: 18px; 
+    font-size: 1.125rem; 
     color: #5ceacb;
 }
 .fonSize2{
     font-family: 'Calibre', 'Inter', 'San Francisco'; 
-    font-size: 60px; 
+    font-size: 3.75rem; 
     font-weight: 600;
     color: #ccd6f6;
  
@@ -88,7 +88,7 @@ height: 60px;
 }
 .fonSize3{
     font-family: 'Calibre', 'Inter', 'San Francisco'; 
-    font-size: 60px; 
+    font-size: 3.75rem; 
     font-weight: 600; 
     color: #8892b0;
 
@@ -96,7 +96,7 @@ height: 60px;
 }
 .fonSize4{
     font-family: 'Calibre', 'Inter', 'San Francisco'; 
-    font-size: 18px; 
+    font-size: 1.125rem; 
     color: #717c98;
     font-weight: 500; 
 }
@@ -120,20 +120,20 @@ height: 60px;
 /* section 1 css */
 .title{
   color: #b4bfde;
-  font-size: 25px;
+  font-size: 1.5625rem;
   font-weight: 600;
   font-family: 'SF Mono', 'Fira Coda', 'Fira Mono'; 
 }
 .title span:nth-child(1) {
   color: #5ceacb;
-  font-size: 22px;
+  font-size: 1.375rem;
   font-family: 'SF Mono', 'Fira Coda', 'Fira Mono'; 
 }
 .custom-list {
   list-style: none;
   padding: 0;
   font-family: 'Calibre', 'Inter', 'San Francisco'; 
-    font-size: 14px; 
+    font-size: 0.875rem; 
     color: #717c98;
     font-weight: 500; 
 }
@@ -148,7 +148,7 @@ height: 60px;
   text-decoration: none;
   color: #A8B2d1;
   font-family: 'SF Mono', 'Fira Coda', 'Fira Mono'; 
-  font-size: 18px;
+  font-size: 1.125rem;
  
 }
 #radixtech:hover{
@@ -160,7 +160,7 @@ height: 60px;
 /* section 4 css */
 #contact{
   font-family: 'Calibre', 'Inter', 'San Francisco'; 
-  font-size: 40px; 
+  font-size: 2.5rem; 
   font-weight: 600; 
   color: #8892b0;
 }
@@ -177,9 +177,21 @@ height: 60px;
 /* footer css */
 .footer{
     font-family: 'SF Mono', 'Fira Coda', 'Fira Mono'; 
-    font-size: 14px; 
+    font-size: 0.875rem; 
     color: #b4bfde;
     font-weight: 200;
 
 }
 /* commit check */
+#Shape{
+  background-color: green;
+}
+/* for mobile display:  */
+@media (max-width: 768px) {
+  .menu{
+    display: none !important;
+  }
+  .hoyrTal{
+    display: none ;
+  }
+}
