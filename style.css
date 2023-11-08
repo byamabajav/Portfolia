@@ -53,6 +53,10 @@ body{
 section{
     height: 100vh;
 }
+
+element.style {
+  padding-top: 0px;
+}
 /* logo */
 .logo-container{
     color: #5ceacb;
