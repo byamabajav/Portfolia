@@ -21,9 +21,7 @@
     color: #5ceacb;
   }
 /* 2 taliin zahiin fixed items css*/
-.bulan{
-    /* background-color: rgba(10, 25, 47, 1) */
-}
+
 .bulan .list-group-item {
     background-color: inherit; 
     color: #fff; 
@@ -183,13 +181,89 @@ height: 60px;
     font-weight: 200;
 
 }
-/* commit check */
-#Shape{
-  background-color: green;
+/*mobile navbar */
+.nav-link{
+  color: #b4bfde;
 }
+.nav-link:hover{
+  color:#5ceacb;
+}
+/* Add custom CSS to change the button color */
+
+
+
+
+.navbar-toggler-icon {
+  background-image: none!important;
+  background-color: var(--bs-gray-800);
+  height: 3px;
+  width: 25px;
+  margin: 10px 0;
+  position: relative;
+  transition: all 0.35s ease-out;
+  transform-origin: center;
+}
+
+.navbar-toggler-icon::before {
+  display: block;
+  background-color: var(--bs-gray-800);
+  height: 3px;
+  content: "";
+  position: relative;
+  top: -7px;
+  transition: all 0.15s ease-out;/*taken down to hide quicker*/
+  transform-origin: center;
+}
+
+.navbar-toggler-icon::after {
+  display: block;
+  background-color: var(--bs-gray-800);
+  height: 3px;
+  content: "";
+  position: relative;
+  top: 4px;
+  transition: all 0.35s ease-out;
+  transform-origin: center;
+}
+
+.navbar-dark .navbar-toggler-icon,
+.navbar-dark .navbar-toggler-icon::before,
+.navbar-dark .navbar-toggler-icon::after {
+  background-color: var(--bs-gray-100);
+}
+
+.navbar-toggler:not(.collapsed) .navbar-toggler-icon {
+  transform: rotate(45deg);
+}
+
+.navbar-toggler:not(.collapsed) .navbar-toggler-icon::before {
+  opacity: 0;
+}
+
+.navbar-toggler:not(.collapsed) .navbar-toggler-icon::after {
+  transform: rotate(-90deg) translateX(7px);
+}
+
+.custom-icon {
+  color: #5ceacb; 
+}
+
+.custom-toggler {
+  color: #5ceacb;
+}
+
+
+
+
 /* for mobile display:  */
 @media (max-width: 768px) {
-  .menu{
+  .headerRow{
+    display: none !important;
+  }
+
+}
+@media (min-width: 768px) {
+  .navbar{
     display: none !important;
   }
 
@@ -206,3 +280,6 @@ height: 60px;
   }
   
 }
+
+
+

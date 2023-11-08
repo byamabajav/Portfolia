@@ -35,6 +35,5 @@ document.addEventListener("DOMContentLoaded", function(){
         behavior: 'smooth' 
       });
     });
-    // for mobile
-  
+    
   }); 
