@@ -51,11 +51,7 @@ body{
     background-color: rgba(10, 25, 47, 1);
 }
 section{
-    height: 100vh;
-}
-
-element.style {
-  padding-top: 0px;
+  height: 100vh;
 }
 /* logo */
 .logo-container{
@@ -256,9 +252,6 @@ height: 60px;
   color: #5ceacb;
 }
 
-
-
-
 /* for mobile display:  */
 @media (max-width: 768px) {
   .headerRow{
@@ -270,6 +263,7 @@ height: 60px;
   .navbar{
     display: none !important;
   }
+ 
 
 }
 @media (max-width: 1200px) {

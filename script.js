@@ -3,7 +3,21 @@ document.addEventListener("DOMContentLoaded", function(){
     // class iig el_autohide ruu ugnugit commit
     navbar_height = document.querySelector('.headerRow').offsetHeight;
     console.log(navbar_height);
-    document.body.style.paddingTop = navbar_height + 'px';
+    function updatePadding() {
+      if (window.innerWidth > 768) {
+        document.body.style.paddingTop = navbar_height + 'px';
+      } else {
+        document.body.style.paddingTop = '0';
+      }
+    }
+    updatePadding();
+    
+    // Set up a function to run the check every second
+    setInterval(updatePadding, 1000);
+    
+
+   
+ 
   
     if(el_autohide){
       var last_scroll_top = 0;
@@ -35,5 +49,6 @@ document.addEventListener("DOMContentLoaded", function(){
         behavior: 'smooth' 
       });
     });
+
     
   }); 
