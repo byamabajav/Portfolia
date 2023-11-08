@@ -22,7 +22,7 @@
   }
 /* 2 taliin zahiin fixed items css*/
 .bulan{
-    background-color: rgba(10, 25, 47, 1)
+    /* background-color: rgba(10, 25, 47, 1) */
 }
 .bulan .list-group-item {
     background-color: inherit; 
@@ -70,6 +70,7 @@ height: 60px;
     color: #5ceacb;
     border: 2px solid #5ceacb;
     border-radius: 15%;
+   
 }
 
 /* text css */
@@ -191,7 +192,17 @@ height: 60px;
   .menu{
     display: none !important;
   }
+
+}
+@media (max-width: 1200px) {
   .hoyrTal{
     display: none ;
   }
+}
+
+@media (min-width: 1200px) {
+  .contact{
+    display: none !important;
+  }
+  
 }
